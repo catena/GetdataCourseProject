@@ -1,10 +1,8 @@
 
 # Getting and Cleaning Data Course Project
-==========================================
 
 
 ## Overview
-===========
 
 The purpose of this project is to clean the [Human Activity Recognition database][1] built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
@@ -16,7 +14,6 @@ The tidy data will be created as two indendepent datasets:
 	
 
 ## Installation and Usage
-=========================
 
 This setup has been tested on Ubuntu 14.04, R 3.0.2 environment. **Requires** `data.table` package.
 
