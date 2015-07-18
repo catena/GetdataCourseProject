@@ -17,7 +17,7 @@ The tidy data will be created as two indendepent datasets:
 
 This setup has been tested on Ubuntu 14.04, R 3.0.2 environment. **Requires** `data.table` package.
 
-1. Download and extract the [dataset][2]. It should result in `UCI HAR Dataset` folder that has all the required files.
+1. Download and extract the source [dataset][2]. It should result in `UCI HAR Dataset` folder that has all the required data files.
 2. Change working directory to `UCI HAR Dataset` folder.
 3. Clone this repository.
 4. To generate the dataset, run 
