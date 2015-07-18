@@ -110,7 +110,7 @@ createDatasets <- function() {
     featureData <- buildActivityData()
     meanFeatureData <- buildMeanActivityData(featureData)
     write.dataset(featureData, "./activityData.txt")
-    write.dataset(meanFeatureData, "./averageActivity.txt")
+    # write.dataset(meanFeatureData, "./averageActivity.txt")
 }
 
 library(data.table)

@@ -15,14 +15,9 @@ See [here][1] for a description of the source dataset.
 
 ## Work/Transformations applied
 
-### Dataset1: activityData.txt
+The subject identifier for each pattern is read from 'UCI HAR Dataset/train/subject_train.txt'. The activity labels are read from 'UCI HAR Dataset/train/y_train.txt' and then substituted with activity names linked to their class labels by 'UCI HAR Dataset/activity_labels.txt'. The next step is to extract mean and standard deviation measurements from the training set 'UCI HAR Dataset/train/X_train.txt', which is a table of 'pattern X feature vector'. The required measurements are a subset of components of the feature vector for all patterns. The position of the required elements of feature vector is computed from 'features.txt' and is then used to extract the measurements from the training set. The subject identifiers, activity labels and extracted measurements are merged columnwise to build the training table. Similary, the measurements table for test data is created (only filenames change). Finally the training and test data tables are merged together to create a single dataset. *Note: there are no changes to the units of feature variables.*
 
-The subject identifier for each pattern is read from 'UCI HAR Dataset/train/subject_train.txt'. The activity labels are read from 'UCI HAR Dataset/train/y_train.txt' and then substituted with activity names linked to their class labels by 'UCI HAR Dataset/activity_labels.txt'. The next step is to extract mean and standard deviation measurements from the training set 'UCI HAR Dataset/train/X_train.txt', which is a table of 'pattern X feature vector'. The required measurements are a subset of components of the feature vector for all patterns. The position of the required elements of feature vector is computed from 'features.txt' and is then used to extract the measurements from the training set. The subject identifiers, activity labels and extracted measurements are merged columnwise to build the training table. Similary, the measurements table for test data is created (only filenames change). Finally the training and test data tables are merged together to create a single dataset.
-
-
-### Dataset2: averageActivity.txt
-
-From dataset1, a second independent tidy data set is created with the average of each feature variable for each activity and each subject, in wide format. *Note: there are no changes to the units of feature variables.*
+The final tidy data will be created as a txt file `activityData.txt`.
 
 
 ***
