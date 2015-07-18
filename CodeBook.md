@@ -64,7 +64,7 @@ For example: tBodyGyroJerkMag-std => Magnitude of the time-domain gyroscope body
 ***
 
 
-## Complete list of selected features 
+## Complete list of variables
 
 1.	subjectId
 2.	activityName
